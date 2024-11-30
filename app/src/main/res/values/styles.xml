@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here -->
+        <item name="android:windowBackground">@color/light_blue</item> <!-- Light blue background -->
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/menu_background</item>
+        <item name="colorPrimaryDark">@color/menu_background</item> <!-- Change to darker blue for the status bar -->
+        <item name="colorAccent">@color/menu_text_color</item> <!-- White text for action bar/menu items -->
+
+        <!-- Customize Popup Menu background -->
+        <item name="popupMenuStyle">@style/CustomPopupMenu</item>
+        <item name="android:popupMenuStyle">@style/CustomPopupMenu</item>
+    </style>
+
+    <!-- Custom Popup Menu Style -->
+    <style name="CustomPopupMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:popupBackground">@color/menu_background</item> <!-- Custom light blue -->
+        <item name="android:textColor">@color/menu_text_color</item> <!-- White text -->
+    </style>
+</resources>
